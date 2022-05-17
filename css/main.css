@@ -1,0 +1,211 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+
+scroll-behavior: smooth;
+
+}
+
+body{
+
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+.icon-bar{
+
+    position: fixed;
+    top: 40%;
+
+}
+
+.icon-bar a{
+
+display: block;
+text-align: center;
+padding: 14px;
+color: white;
+font-size: 16px;
+
+transition: all 0.3s ease;
+
+}
+
+.icon-bar a:hover{
+
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+
+}
+
+.icon-bar .facebook{
+
+border-top-right-radius: 10px;
+color: white;
+background-color: #3B5998;
+
+}
+
+.icon-bar .twitter{
+
+color: white;
+background-color: #55ACEE;
+
+}
+
+.icon-bar .youtube{
+
+color: white;
+background-color: #bb0000;
+
+}
+
+.icon-bar .whatsapp{
+
+border-bottom-right-radius: 10px;
+color: white;
+background-color:#25d366;
+
+}
+
+.menu{
+
+font-size: 60%;
+list-style: none;
+padding: 0%;
+background-color: rgb(250, 128, 114);
+width: auto;
+max-width: 100%;
+margin: 0;
+
+}
+
+.menu li a{
+
+text-decoration: none;
+color: white;
+padding: 15px 7px;
+display: block;
+transition: 0.3s;
+
+}
+
+.menu li{
+
+display: inline-block;
+text-align: center;
+
+}
+
+.menu li a:hover{
+
+color: rgb(19, 19, 19);
+
+}
+
+
+h1{
+
+font-size: 270%;
+font-family: 'Caveat', cursive;
+
+}
+
+
+.boton_aux li a{
+
+text-decoration: none;
+background-color: #a52a2a;
+color: white;
+border-radius: 35px;
+border: 0;
+font-size: 15px;
+padding: 15px 35px;
+margin: 5px 0;
+transition: 0.2s;
+}
+
+.boton_aux li a:hover{
+
+background-color: rgb(234, 62, 62);
+box-shadow: 0px 0px 30px rgb(255, 90, 90);
+    
+}
+
+
+.fotos{
+
+border-radius: 100%;
+transition: 0.2s;
+
+}
+
+.fotos:hover{
+
+box-shadow: 0px 0px 10px rgba(96, 96, 96, 0.676);
+transform: scale(1.1);
+
+}
+
+h2{
+
+font-size: 150%;
+font-family: 'Caveat', cursive;
+
+}
+
+p2{
+
+font-size: 70%;
+margin: auto;
+
+}
+
+p3{
+
+font-size: 70%;
+margin: auto;
+
+}
+
+footer{
+
+font-size: 100%;
+background-color: black;
+padding: 30px 100px;
+color: white;
+text-align: center;
+font-family: 'Caveat', cursive;
+
+}
+
+.gotop{
+
+position: fixed;
+width: 50px;
+height: 50px;
+background: #a52a2a;
+bottom: 10px;
+right: 10px;
+
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+border-radius: 100%;
+color: white;
+transition: all 0.3s ease;
+
+}
+
+.gotop:hover{
+    
+box-shadow: 0px 0px 30px rgb(255, 90, 90);
+background: rgb(251, 117, 117);
+
+}
